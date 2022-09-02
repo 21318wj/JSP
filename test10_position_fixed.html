@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+     <meta charset="UTF-8">
+     <title>position속성 변수test</title>
+     <style>
+	* {margin: 0; padding: 0;}
+	.static_test{
+			border: 1px solid black;
+			position: static;
+			width: 300px;
+			height: 50px;
+	}
+
+	.relative_test{
+			border: 1px solid #FA58A4;
+			position: relative;
+			width: 300px;
+			height: 50px;
+			top: 50px;
+			left: 10px;
+	}
+	.fixed_test{
+			border: 1px solid #FA58F4;
+			position: fixed;
+			width: 300px;
+			height: 50px;
+			top: 50px;
+			left: 100px;
+	}
+     </style>
+</head>
+<body>
+     <div class="static_test">
+	(1) position: static 정하은입니다.
+     </div>
+     <div class="relative_test">
+	(2) position: static 차현명입니다.
+     <div class="fixed_test">
+	(3) position: relative 천경호입니다.
+     </div>
+</body>

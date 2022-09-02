@@ -1,0 +1,35 @@
+body{
+	font-size: 12px;
+	font-family: 함초롱바탕;
+}
+
+span, strong{
+	color: red;
+}
+
+table{
+	width: 500px;
+	height: 300px;
+}
+
+table,tr,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+caption{
+	text-align: right;
+}
+
+div{
+	padding: 10px;
+}
+
+th{
+	padding: 10px;
+	text-align: right;
+}
+
+.btn{
+	float: right;
+}
